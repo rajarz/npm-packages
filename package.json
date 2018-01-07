@@ -1,0 +1,112 @@
+{
+  "name": "npm-packages",
+  "version": "1.0.0",
+  "description": "",
+
+  "description": "Gulp tasks to automate Open UI dev ",
+
+  "main": "gulpfile.js",
+
+  "dependencies": {},
+
+  "devDependencies": {
+
+    "@types/gulp": "^4.0.5",
+
+    "@types/gulp-load-plugins": "0.0.31",
+
+    "@types/gulp-util": "^3.0.34",
+
+    "@types/run-sequence": "0.0.30",
+
+    "@types/shelljs": "^0.7.7",
+
+    "@types/yargs": "^10.0.1",
+
+    "browser-sync": "^2.23.3",
+
+    "chai": "^4.1.2",
+
+    "commander": "^2.12.2",
+
+    "cucumber": "^3.2.1",
+
+    "del": "^3.0.0",
+
+    "git-clone": "^0.1.0",
+
+    "gulp": "^3.9.1",
+
+    "gulp-autoprefixer": "^4.1.0",
+
+    "gulp-cssnano": "^2.1.2",
+
+    "gulp-debug": "^3.2.0",
+
+    "gulp-exec": "^3.0.1",
+
+    "gulp-git": "^2.5.0",
+
+    "gulp-if": "^2.0.2",
+
+    "gulp-jscs": "^4.1.0",
+
+    "gulp-jshint": "^2.1.0",
+
+    "gulp-less": "^3.4.0",
+
+    "gulp-load-plugins": "^1.5.0",
+
+    "gulp-plumber": "^1.2.0",
+
+    "gulp-print": "^2.0.1",
+
+    "gulp-sass": "3.1.0",
+
+    "gulp-sourcemaps": "^2.6.3",
+
+    "gulp-stylefmt": "^1.1.0",
+
+    "gulp-uglify": "^3.0.0",
+
+    "gulp-util": "^3.0.8",
+
+    "jshint": "^2.9.5",
+
+    "jshint-stylish": "^2.2.1",
+
+    "node-plantuml": "^0.5.0",
+
+    "node-sass": "4.7.2",
+
+    "run-sequence": "^2.2.1",
+
+    "scssfmt": "^1.0.4",
+
+    "shelljs": "^0.7.8",
+
+    "typescript": "^2.6.2",
+
+    "wdio-cucumber-framework": "^1.0.3",
+
+    "webdriverio": "^4.9.11",
+
+    "yargs": "^10.0.3"
+
+  },
+
+  "scripts": {
+
+    "tsc-gulp": "tsc gulpfile.ts",
+
+    "gulp": "gulp",
+
+    "gulp-build-deploy": "..\\node_modules\\.bin\\gulp compile-and-deploy --portal=all"
+
+  },
+
+  "author": "Rahul Rajaram",
+
+  "license": "ISC"
+
+}
