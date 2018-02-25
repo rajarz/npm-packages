@@ -1,6 +1,15 @@
-// java -jar -Dwebdriver.chrome.driver='chromedriver'
 
+
+var selenium = require('selenium-standalone');
 var webdriverio = require('webdriverio');
+
+
+selenium.start(function (err, child) {
+    child.stderr.on('data', function (data) {
+        // console.log("Hello World");
+        // console.log(data.toString());
+    });
+});
 
 var options = {
     desiredCapabilities: {
@@ -19,10 +28,9 @@ browser.getTitle().then(function (title) {
     // "Title is: WebdriverIO (Software) at DuckDuckGo"
 });
 
-browser.waitUntil(function () {
-    return true;
-}, 5000);
-
 browser.execute(function () {
-    SiebelApp.S_App.GotoView('Action Screen Homepage View');
+    console.log("Welcome from WebDriverIO");
+    setTimeout(() => {
+        SiebelApp.S_App.GotoView('Action Screen Homepage View');
+    }, 3000);
 });

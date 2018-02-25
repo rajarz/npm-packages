@@ -1,5 +1,5 @@
 {
-  "name": "npm-packages",
+  "name": "dss-open-ui-build",
   "version": "1.0.0",
   "description": "Gulp tasks to automate Open UI dev ",
   "main": "gulpfile.js",
