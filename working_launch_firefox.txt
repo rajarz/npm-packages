@@ -1,0 +1,76 @@
+19:05:14.618 INFO - Selenium build info: version: '3.7.1', revision: '8a0099a'
+
+19:05:14.618 INFO - Launching a standalone Selenium Server
+
+2018-02-25 19:05:14.634:INFO::main: Logging initialized @176ms to org.seleniumhq.jetty9.util.log.StdErrLog
+
+19:05:14.696 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+
+19:05:14.743 INFO - Driver provider class org.openqa.selenium.safari.SafariDriver registration is skipped:
+ registration capabilities Capabilities {browserName: safari, platform: MAC, version: } does not match the current platform VISTA
+
+19:05:14.790 INFO - Using the passthrough mode handler
+
+2018-02-25 19:05:14.805:INFO:osjs.Server:main: jetty-9.4.5.v20170502
+
+2018-02-25 19:05:14.837:WARN:osjs.SecurityHandler:main: ServletContext@o.s.j.s.ServletContextHandler@bbd20a{/,null,STARTING} has uncovered http methods for path: /
+
+
+2018-02-25 19:05:14.837:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@bbd20a{/,null,AVAILABLE}
+
+2018-02-25 19:05:14.852:INFO:osjs.AbstractConnector:main: Started ServerConnector@7aecef{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+
+2018-02-25 19:05:14.852:INFO:osjs.Server:main: Started @390ms
+
+19:05:14.852 INFO - Selenium Server is up and running
+
+2018-02-25 19:05:15.092:INFO:osjshC.ROOT:qtp7289688-9: org.openqa.selenium.remote.server.WebDriverServlet-ef9176: Initialising WebDriverServlet
+
+19:05:15.162 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.Status@1b0cf2f
+
+19:05:15.170 INFO - /status: Executing GET on /status (handler: Status)
+
+-------------------
+
+19:05:50.566 INFO - Found handler: org.openqa.selenium.remote.server.commandhandler.BeginSession@7277ff
+
+19:05:50.566 INFO - /session: Executing POST on /session (handler: BeginSession)
+
+19:05:50.659 INFO - Capabilities are: Capabilities {browserName: firefox, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, loggingPrefs: org.openqa.selenium.logging..., requestOrigins: {name: webdriverio, url: http://webdriver.io, version: 4.10.2}, rotatable: true}
+
+19:05:50.659 INFO - Capabilities {browserName: firefox, handlesAlerts: true, javascriptEnabled: true, locationContextEnabled: true, loggingPrefs: org.openqa.selenium.logging..., requestOrigins: {name: webdriverio, url: http://webdriver.io, version: 4.10.2}, rotatable: true} matched class org.openqa.selenium.remote.server.ServicedSession$Factory (provider: org.openqa.selenium.firefox.GeckoDriverService)
+
+1519545950705   geckodriver     INFO    geckodriver 0.19.1
+
+1519545950721   geckodriver     INFO    Listening on 127.0.0.1:39667
+
+1519545951493   mozrunner::runner       INFO    Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\RAHULR~1\\AppData\\Local\\Temp\\rust_mozprofile.xcEtBGcIT4XR"
+
+1519545952147   Marionette      INFO    Enabled via --marionette
+
+1519545954215   Marionette      INFO    Listening on port 49711
+
+Unable to read VR Path Registry from C:\Users\rahulrajaram\AppData\Local\openvr\openvrpaths.vrpath
+[Child 5888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+1519545954822   Marionette      DEBUG   Register listener.js for window 4294967297
+
+19:05:54.871 INFO - Detected dialect: W3C
+
+19:05:54.927 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@15a252c
+
+19:05:54.929 INFO - Handler thread for session bf5ffdc3-a388-4093-b40c-9d7ff03c9a9e (firefox): Executing POST on /session/bf5ffdc3-a388-4093-b40c-9d7ff03c9a9e/url (handler: ServicedSession)
+
+1519545954946   Marionette      DEBUG   Received DOM event "beforeunload" for "about:blank"
+
+1519545956032   Marionette      DEBUG   Received DOM event "pagehide" for "about:blank"
+1519545956032   Marionette      DEBUG   Received DOM event "unload" for "about:blank"
+
+1519545956538   Marionette      DEBUG   Received DOM event "DOMContentLoaded" for "https://www.google.com.au/"
+
+1519545958356   Marionette      DEBUG   Received DOM event "pageshow" for "https://www.google.com.au/"
+
+19:05:58.357 INFO - Found handler: org.openqa.selenium.remote.server.ServicedSession@15a252c
+
+19:05:58.357 INFO - Handler thread for session bf5ffdc3-a388-4093-b40c-9d7ff03c9a9e (firefox): Executing GET on /session/bf5ffdc3-a388-4093-b40c-9d7ff03c9a9e/title (handler: ServicedSession)
