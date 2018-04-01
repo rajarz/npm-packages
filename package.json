@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
+    "@types/fs-extra": "^5.0.1",
     "@types/gulp": "^4.0.5",
     "@types/gulp-load-plugins": "0.0.31",
     "@types/gulp-util": "^3.0.34",
