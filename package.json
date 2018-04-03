@@ -65,7 +65,7 @@
   },
   "husky": {
     "hooks": {
-      "precommit": "npm run gulp"
+      "pre-commit": "npm run gulp"
     }
   },
   "author": "Rahul Rajaram",
