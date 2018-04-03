@@ -39,7 +39,7 @@
     "gulp-stylefmt": "^1.1.0",
     "gulp-uglify": "^3.0.0",
     "gulp-util": "^3.0.8",
-    "husky": "^0.14.3",
+    "husky": "^0.15.0-rc.13",
     "jshint": "^2.9.5",
     "jshint-stylish": "^2.2.1",
     "node-notifier": "^5.2.1",
@@ -61,8 +61,12 @@
   "scripts": {
     "tsc-gulp": "tsc gulpfile.ts",
     "gulp": "gulp",
-    "gulp-build-deploy": "..\\node_modules\\.bin\\gulp compile-and-deploy --portal=all",
-    "precommit": "npm run gulp"
+    "gulp-build-deploy": "..\\node_modules\\.bin\\gulp compile-and-deploy --portal=all"
+  },
+  "husky": {
+    "hooks": {
+      "precommit": "npm run gulp"
+    }
   },
   "author": "Rahul Rajaram",
   "license": "ISC"
