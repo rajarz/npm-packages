@@ -61,7 +61,8 @@
   "scripts": {
     "tsc-gulp": "tsc gulpfile.ts",
     "gulp": "gulp",
-    "gulp-build-deploy": "..\\node_modules\\.bin\\gulp compile-and-deploy --portal=all"
+    "gulp-build-deploy": "..\\node_modules\\.bin\\gulp compile-and-deploy --portal=all",
+    "precommit": "npm run gulp"
   },
   "author": "Rahul Rajaram",
   "license": "ISC"
